@@ -32,6 +32,6 @@ And assuming that the following variable has been declared:
 What is the output from the following statements?
 
                                             OUTPUT:
-System.out.println(mytruck);	         [vroomvroom]
+System.out.println(mytruck);	        [vroomvroom]
 mytruck.m1();	                          [truck 1]
 mytruck.m2();                               [car 1]
