@@ -29,7 +29,7 @@ What is the output from the following statements?
 System.out.println(mycar);              [vroom]
 mycar.m1();	                            [car 1]
 mycar.m2();	                            [car 2]
-System.out.println(mytruck);	          [vroom]
-mytruck.m1();	                          [truck 1]
-mytruck.m2();	                          [car 2]
+System.out.println(mytruck);	        [vroom]
+mytruck.m1();	                        [truck 1]
+mytruck.m2();	                        [car 2]
  
