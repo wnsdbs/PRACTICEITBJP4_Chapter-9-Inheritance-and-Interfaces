@@ -7,7 +7,6 @@ public class FilteredAccount extends Account {
     }    
     public boolean process(Transaction t) {
         total++;
-        
         if(t.value() == 0) {
             zero++;
             return true;
