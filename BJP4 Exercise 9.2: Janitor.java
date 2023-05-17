@@ -1,4 +1,4 @@
-*/ 
+/* 
 *
 Write a class Janitor to accompany the other law firm classes described in this chapter. 
 Janitors work twice as many hours per week as other employees (80 hours/week), they make $30,000 
