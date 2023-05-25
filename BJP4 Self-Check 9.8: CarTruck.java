@@ -1,4 +1,4 @@
-Consider the following two classes:
+/*Consider the following two classes:
 
 public class Car {
     public void m1() {
@@ -32,4 +32,4 @@ mycar.m2();	                        [car 2]
 System.out.println(mytruck);	    [vroom]
 mytruck.m1();	                      [truck 1]
 mytruck.m2();	                      [car 2]
- 
+*/ 
