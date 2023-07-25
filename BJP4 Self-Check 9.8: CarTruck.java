@@ -1,4 +1,4 @@
-/*Consider the following two classes:
+ // Consider the following two classes:
 
 public class Car {
     public void m1() {
@@ -18,18 +18,18 @@ public class Truck extends Car {
         System.out.println("truck 1");
     }
 }
-And assuming that the following variables have been declared:
+
+// And assuming that the following variables have been declared:
 
   Car mycar = new Car();
   Truck mytruck = new Truck();
   
-What is the output from the following statements?
+// What is the output from the following statements?
         
-                                        OUTPUT:
+                                     // OUTPUT:
 System.out.println(mycar);              [vroom]
 mycar.m1();	                        [car 1]
 mycar.m2();	                        [car 2]
 System.out.println(mytruck);	    [vroom]
 mytruck.m1();	                      [truck 1]
 mytruck.m2();	                      [car 2]
-*/ 
