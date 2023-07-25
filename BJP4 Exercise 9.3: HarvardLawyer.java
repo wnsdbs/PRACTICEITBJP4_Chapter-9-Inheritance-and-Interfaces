@@ -22,7 +22,7 @@ public class HarvardLawyer extends Lawyer
         String temp = "";
         for (int  i = 0; i < 4; i++)
           temp += super.getVacationForm();
-        return temp;
+		return temp;
     }
 }
 
