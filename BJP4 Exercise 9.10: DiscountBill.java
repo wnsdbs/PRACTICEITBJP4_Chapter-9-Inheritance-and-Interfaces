@@ -1,4 +1,5 @@
-public class DiscountBill extends GroceryBill{
+public class DiscountBill extends GroceryBill
+{
     private int itemsDiscounted;
     private double discounted;
     private boolean prefCustomer;
@@ -12,31 +13,25 @@ public class DiscountBill extends GroceryBill{
     
     public void add(Item i){
         super.add(i);
-        if (prefCustomer && i.getDiscount() > 0)
-        {
+        if (prefCustomer && i.getDiscount() > 0){
             itemsDiscounted++;
             discounted += i.getDiscount();
         }
      }
     
-    public double getTotal()
-    {
+    public double getTotal(){
         return super.getTotal() - discounted;
     }
     
-    public int getDiscountCount()
-    {
+    public int getDiscountCount(){
         return itemsDiscounted;
     }
     
-    public double getDiscountAmount()
-    {
+    public double getDiscountAmount(){
         return discounted;
     }
     
-    public double getDiscountPercent()
-    {
+    public double getDiscountPercent(){
        return discounted * 100 / super.getTotal();
-    }
-    
+    ) 
 }
